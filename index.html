@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Destination</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td><img src="asset/icons/plane.png" alt="Flights" height="50" width="50"></td>
+            <td><img src="asset/icons/hotel.png" alt="Hotels" height="50" width="50"></td>
+            <td><img src="asset/icons/summer-holidays.png" alt="Holidays" height="50" width="50"></td>
+            <td><img src="asset/icons/bus.png" alt="Bus" height="50" width="50"></td>
+            <td><img src="asset/icons/railway.png" alt="Bus" height="50" width="50"></td>
+
+            
+        </tr>
+        <tr>
+            <td>Flights</td>
+            <td>Hotels</td>
+            <td>Holidays</td>
+            <td>Bus</td>
+            <td>Train</td>
+        </tr>
+    </table>
+
+    <form action="submit">
+        <div>
+            <input type="radio" id="one_way" name="trip">One Way
+            <input type="radio" id="round_trip" name="trip">Round Trip
+            <input type="radio" id="multi_city" name="trip">Multi City
+        </div>
+        
+        <div>
+            <label for="">Departure From</label>
+            <label for="">Arrival At</label>
+            <label for="">Departure Date <input type="date" value="v"></label>
+            <label for="">Return Date</label>
+            <label for="">Travellers & Class</label>
+        </div>
+
+        <div>
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td><input type="radio" id="regular" name="option">Regular</td>
+                    <td><input type="radio" id="student" name="option">Student</td>
+                    <td><input type="radio" id="armed_force" name="option">Armed Forces</td>
+                    <td><input type="radio" id="senior_citizen" name="option">Senior Citizen</td>
+                    <td><input type="radio" id="gst" name="option">Have GST number?</td>
+                    <td>
+                     <input type="checkbox">Non - Stop Flights
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Regular Fares</td>
+                    <td>Extra Baggage</td>
+                    <td>Extra Discount</td>
+                    <td>Extra Discount</td>
+                </tr>
+                
+            </table>
+
+        </div>
+       
+    </form>
+
+
+
+    
+</body>
+</html>
